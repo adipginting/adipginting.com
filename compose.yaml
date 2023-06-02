@@ -2,4 +2,4 @@ services:
   website:
     build: .
     ports:
-      - 4000:3000
+      - 2000:3000
