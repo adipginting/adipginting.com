@@ -1,5 +1,6 @@
 services:
   website:
     build: .
+    restart: always
     ports:
       - 2000:3000
