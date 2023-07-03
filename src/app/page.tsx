@@ -4,21 +4,17 @@ export default function Home() {
       <article>
         <h1>Mejuah-juah!</h1>
         <p>
-          Hello, I am Adi Ginting from Indonesia. I am currently looking for job
+          Hello, I am Adi Ginting from Indonesia. I am currently looking for
           opportunities in web development.{" "}
         </p>
 
         <p>
-          My interests in technology are relatively broad, but I am inclined
-          more towards web backend development and system software development.
+          My interests in technology are relatively broad, but at present, I am
+          inclined more towards web backend development and system software
+          development.
         </p>
 
-        <p>
-          This website is still under construction and the links on the nav
-          section above have not worked yet, but in the mean time, you can check
-          my programming oriented social media.
-        </p>
-        <p>My social media links:</p>
+        <p>Check out my programming oriented social media links:</p>
         <ul>
           <li>
             <a href="https://github.com/adipginting">Github</a>
