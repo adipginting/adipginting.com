@@ -2,20 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@media screen and (min-width: 1366px) {
-  main {
-    padding-top: 5px;
-    display: flex;
-    flex-flow: row wrap;
-  }
-}
-
 body {
   display: flex;
   justify-content: center;
 }
 .container {
   margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-flow: column;
 }
@@ -34,6 +27,13 @@ main {
   padding-top: 5px;
   display: flex;
   flex-flow: column;
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding-top: 5px;
+    display: flex;
+    flex-flow: row wrap;
+  }
 }
 
 article {
