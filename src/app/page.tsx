@@ -9,12 +9,12 @@ export default function Home() {
         </p>
 
         <p>
-          My social media presence on &nbsp;
+          My social media presence on
           <a
             href="https://github.com/adipginting"
             className="text-blue-900 hover:text-blue-400"
           >
-            Github
+            &nbsp;Github
           </a>
           ,&nbsp;
           <a
@@ -23,12 +23,12 @@ export default function Home() {
           >
             Linkedin
           </a>
-          , and &nbsp;
+          , and
           <a
             href="https://twitter.com/adipginting"
             className="text-blue-900 hover:text-blue-500"
           >
-            Twitter.
+            &nbsp;Twitter.
           </a>
         </p>
       </article>
