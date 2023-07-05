@@ -5,17 +5,16 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <a href="https://www.industrialisasi.site/adipginting">blog</a>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/portofolio" className="hover:pointer-events-auto">
-            portofolio
-          </Link>
+          <Link href="/blog">Blog</Link>
         </li>
         <li>
-          <Link href="/resume" className="hover:pointer-events-auto">
-            resume
-          </Link>
+          <Link href="/projects">Projects</Link>
+        </li>
+        <li>
+          <Link href="/resume">Resume</Link>
         </li>
       </ul>
     </nav>

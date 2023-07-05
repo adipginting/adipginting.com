@@ -2,79 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-@media screen and (min-width: 400px) {
-  html {
-    overflow: hidden;
-  }
-  .center-div {
-    display: flex;
-    justify-content: center;
-  }
-
-  .container {
-    width: 600px;
-    display: grid;
-    grid-template-columns: 133px 133px 133px;
-    grid-auto-rows: minmax(40px, auto);
-  }
+.center-div {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
-@media screen and (min-width: 900px) {
-  html {
-    overflow: hidden;
-  }
-  .center-div {
-    display: flex;
-    justify-content: center;
-  }
-
-  .container {
-    width: 900px;
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-auto-rows: minmax(40px, auto);
-    background-color: #d9d9d9;
-  }
+.container {
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 nav {
-  padding-top: 10px;
-  grid-row: 1;
-  grid-column: 1/5;
   background-color: #404040;
   color: #ffffff;
 }
 
 nav ul li {
-  margin-left: 27px;
   font-family: sans-serif;
   display: inline;
+  padding-right: 27px;
 }
 
 main {
   padding-top: 5px;
-  padding-left: 27px;
-  padding-right: 27px;
-  grid-row: 2/17;
-  grid-column: 1/4;
+  display: flex;
+  flex-flow: row wrap;
 }
-main article h1 {
-  font-size: 4 rem;
-  font-family: cursive;
+
+article {
+  flex: 1;
 }
 
 main article p {
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 2 rem;
   font-family: sans-serif;
-  text-align: justify;
+  text-align: left;
+}
+
+main ul li {
+  display: inline;
 }
 
 footer {
-  padding-top: 5px;
-  grid-row: 17;
-  grid-column: 1/5;
+  margin-top: 10px;
+  padding: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: center;
   background-color: #404040;
   color: #ffffff;
-  font-size: 0.75rem;
+  font-size: 0.6rem;
 }

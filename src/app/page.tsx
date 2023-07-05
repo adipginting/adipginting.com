@@ -1,32 +1,38 @@
 export default function Home() {
   return (
     <main>
-      <article>
-        <h1>Mejuah-juah!</h1>
+      <article className="left">
         <p>
-          Hello, I am Adi Ginting from Indonesia. I am currently looking for
-          opportunities in web development.{" "}
+          Hello, I am Adi Ginting a computer enthusiast from Indonesia. I have a
+          vast interest in technology, but I am inclined more towards web
+          backend and system software development.
         </p>
 
         <p>
-          My interests in technology are relatively broad, but at present, I am
-          inclined more towards web backend development and system software
-          development.
+          My social media presence on &nbsp;
+          <a
+            href="https://github.com/adipginting"
+            className="text-blue-900 hover:text-blue-400"
+          >
+            Github
+          </a>
+          ,&nbsp;
+          <a
+            href="https://linkedin.com/in/adipginting"
+            className="text-blue-900 hover:text-blue-400"
+          >
+            Linkedin
+          </a>
+          , and &nbsp;
+          <a
+            href="https://twitter.com/adipginting"
+            className="text-blue-900 hover:text-blue-500"
+          >
+            Twitter.
+          </a>
         </p>
-
-        <p>Check out my programming oriented social media links:</p>
-        <ul>
-          <li>
-            <a href="https://github.com/adipginting">Github</a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/adipginting">Linkedin</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/adipginting">Twitter</a>
-          </li>
-        </ul>
       </article>
+      <article className="right"></article>
     </main>
   );
 }
