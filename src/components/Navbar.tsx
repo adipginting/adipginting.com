@@ -19,11 +19,6 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li>
-          <Link href="/resume" className="text-blue-900 hover:text-blue-400">
-            Resume
-          </Link>
-        </li>
       </ul>
     </nav>
   );

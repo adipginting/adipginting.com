@@ -1,3 +1,3 @@
 export default function Page() {
-  return <h1>blog</h1>;
+  return <h1>Blog is under construction</h1>;
 }
