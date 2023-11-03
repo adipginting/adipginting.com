@@ -1,15 +1,12 @@
 export default function Page() {
   return (
     <div className="pt-2">
-      <p>
-        {" "}
-        On going personal projects.
-      </p>
+      <p> On going personal projects.</p>
       <div>
         <h2 className="pt-2">
           A){" "}
           <a
-            href="https://industrialisasi.site"
+            href="https://industrialisasi.com"
             className="text-blue-950 hover:text-blue-500"
           >
             Industrialisasi (2022-present)
@@ -21,7 +18,7 @@ export default function Page() {
           serve RESTful API requests from its user interface that is built on
           top of ReactJS and Bootstrap. The data is persisted on PostgreSQL
           database. An instance of Industrialisasi is currently running on
-          Amazon Web Service Elastic Instance 2 (AWS EC2) using docker and
+          Amazon Web Service Elastic Compute 2 (AWS EC2) using docker and
           docker compose. Some notable features that I am proud of on this
           project is the authorization and authentication flow both in back-end
           and front-end.
@@ -30,7 +27,7 @@ export default function Page() {
         <ol className="list-inside list-decimal">
           <li>
             <a
-              href="https://industrialisasi.site"
+              href="https://industrialisasi.com"
               className="text-blue-950 hover:text-blue-500"
             >
               Industrialisasi Blog Instance
@@ -38,7 +35,7 @@ export default function Page() {
           </li>
           <li>
             <a
-              href="https://api.industrialisasi.site"
+              href="https://api.industrialisasi.com"
               className="text-blue-950 hover:text-blue-500"
             >
               Industrialisasi API Documentation
@@ -108,7 +105,7 @@ export default function Page() {
               href="https://github.com/adipginting/stoic-quote-api"
               className="text-blue-950 hover:text-blue-500"
             >
-                Stoic Quote API Github Repository
+              Stoic Quote API Github Repository
             </a>
           </li>
         </ol>
