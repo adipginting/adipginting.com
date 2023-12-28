@@ -1,17 +1,20 @@
-FROM node:current-alpine AS build
+FROM node:18-alpine AS build
 WORKDIR /website
 COPY package*.json ./
-RUN npm ci --production
-COPY . .
+RUN npm install
+COPY ./src ./src
 RUN npm run build
 
-FROM builder AS prod
+FROM build AS prod
+ENV NODE_ENV=production
+WORKDIR /website
 RUN adduser nextjs -S -u 1001
 RUN addgroup nextjs -S -g 1001
-WORKDIR /website
-COPY --from=build /website/node_modules ./node_modules
-COPY --from=build /website/.next ./.next
+COPY package*.json ./
+COPY --from=build --chown=nextjs:nextjs /website/node_modules ./node_modules
+COPY --from=build --chown=nextjs:nextjs /website/.next ./.next
+COPY --from=build --chown=nextjs:nextjs /website/public ./public
 
 USER nextjs
-EXPOSE 3000
-CMD ["npm", "start"]
+EXPOSE 2000
+CMD ["npm", "run", "start"]
