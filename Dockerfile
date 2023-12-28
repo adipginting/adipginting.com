@@ -13,7 +13,7 @@ RUN addgroup nextjs -S -g 1001
 COPY package*.json ./
 COPY --from=build --chown=nextjs:nextjs /website/node_modules ./node_modules
 COPY --from=build --chown=nextjs:nextjs /website/.next ./.next
-COPY --from=build --chown=nextjs:nextjs ./public ./public
+COPY --chown=nextjs:nextjs ./public ./public
 
 USER nextjs
 EXPOSE 2000
