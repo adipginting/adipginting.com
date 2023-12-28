@@ -16,5 +16,5 @@ COPY --from=build --chown=nextjs:nextjs /website/.next ./.next
 COPY --chown=nextjs:nextjs ./public ./public
 
 USER nextjs
-EXPOSE 2000
+EXPOSE 3000
 CMD ["npm", "run", "start"]
