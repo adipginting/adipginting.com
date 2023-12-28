@@ -2,7 +2,7 @@ FROM node:18-alpine AS build
 WORKDIR /website
 COPY package*.json ./
 RUN npm install
-COPY ./src ./src
+COPY . .
 RUN npm run build
 
 FROM build AS prod
@@ -11,8 +11,7 @@ WORKDIR /website
 RUN adduser nextjs -S -u 1001
 RUN addgroup nextjs -S -g 1001
 COPY package*.json ./
-COPY --chown=nextjs:nextjs ./tailwind.config.js ./tailwind.config.js
-COPY --chown=nextjs:nextjs ./tsconfig.json ./tsconfig.json
+RUN npm ci --production
 COPY --from=build --chown=nextjs:nextjs /website/node_modules ./node_modules
 COPY --from=build --chown=nextjs:nextjs /website/.next ./.next
 COPY --chown=nextjs:nextjs ./public ./public
