@@ -8,7 +8,6 @@ RUN npm run build
 FROM build AS prod
 WORKDIR /website
 ENV NODE_ENV=production
-RUN npm ci
 
 RUN adduser nextjs -S -u 1001
 RUN addgroup nextjs -S -g 1001
