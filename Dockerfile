@@ -1,4 +1,4 @@
-FROM node:18-alpine AS build
+FROM node:lts-bullseye-slim AS build
 WORKDIR /website
 COPY package*.json ./
 RUN npm install
@@ -9,8 +9,8 @@ FROM build AS prod
 WORKDIR /website
 ENV NODE_ENV=production
 
-RUN adduser nextjs -S -u 1001
-RUN addgroup nextjs -S -g 1001
+RUN adduser nextjs --system -uid 1001
+RUN addgroup nextjs --system -gid 1001
 COPY --from=build --chown=nextjs:nextjs /website/node_modules ./node_modules
 COPY --from=build --chown=nextjs:nextjs /website/.next ./.next
 COPY --chown=nextjs:nextjs ./public ./public
