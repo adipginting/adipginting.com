@@ -35,7 +35,7 @@ export default function Page() {
           </li>
           <li>
             <a
-              href="https://api.industrialisasi.com"
+              href="https://api-doc.industrialisasi.com"
               className="text-blue-950 hover:text-blue-500"
             >
               Industrialisasi API Documentation
