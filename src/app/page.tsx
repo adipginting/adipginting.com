@@ -1,35 +1,32 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
       <article className="left">
         <p>
-          Hello, I am Adi Ginting a computer enthusiast from Indonesia. I have a
-          vast interest in technology, but I am inclined more towards web
-          backend and system software development.
+          Hello, I am Adi Ginting a computer programmer from Indonesia. I am
+          currently working in web development mainly using TypeScript and PHP.
+          I am currently the process of branching out to other domains
+          particularly DevOps, data engineering, and AI engineering.
         </p>
 
         <p>
-          My social media presence on
-          <a
+          You can see my online presence on
+          <Link
             href="https://github.com/adipginting"
-            className="text-blue-900 hover:text-blue-400"
+            className="ml-1 mr-1 text-blue-900 ml- hover:text-blue-400"
           >
-            &nbsp;Github
-          </a>
-          ,&nbsp;
-          <a
+            Github
+          </Link>
+          and
+          <Link
             href="https://linkedin.com/in/adipginting"
-            className="text-blue-900 hover:text-blue-400"
+            className="ml-1 text-blue-900 hover:text-blue-400"
           >
             Linkedin
-          </a>
-          , and
-          <a
-            href="https://twitter.com/adipginting"
-            className="text-blue-900 hover:text-blue-500"
-          >
-            &nbsp;Twitter.
-          </a>
+          </Link>
+          .
         </p>
       </article>
       <article className="right"></article>

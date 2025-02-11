@@ -1,6 +1,6 @@
 import "./globals.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../_components/Navbar";
+import Footer from "../_components/Footer";
 import { Finlandica } from "next/font/google";
 
 const finlandica = Finlandica({ subsets: ["latin"] });

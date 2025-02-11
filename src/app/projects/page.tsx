@@ -24,7 +24,7 @@ export default function Page() {
           front-end.
         </p>
         <p>Links:</p>
-        <ol className="list-inside list-decimal">
+        <ol className="list-decimal list-inside">
           <li>
             <a
               href="https://industrialisasi.com"
@@ -77,13 +77,19 @@ export default function Page() {
             Stoic Quote API (2023-present)
           </a>
         </h2>
+
         <p>
-          Stoic Quote API is a simple API for getting random quote from four
-          classic books of Stoicism. This API is built in JavaScript on top of
-          NestJS framework. It is currently running on Render cloud hosting.
+          <a
+            href="https://github.com/adipginting/stoic-quote-api"
+            className="text-blue-950 hover:text-blue-500"
+          >
+            Stoic Quote API is a simple API for getting random quote from four
+            classic books of Stoicism. This API is built in JavaScript with
+            NestJS framework.
+          </a>
         </p>
-        <p>Links:</p>
-        <ol className="list-inside list-decimal">
+        {/* <p>Links:</p>
+        <ol className="list-decimal list-inside">
           <li>
             <a
               href="https://stoic-quote-api.onrender.com/api-doc"
@@ -108,7 +114,7 @@ export default function Page() {
               Stoic Quote API Github Repository
             </a>
           </li>
-        </ol>
+        </ol> */}
       </div>
     </div>
   );
