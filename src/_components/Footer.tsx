@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="shadow-md">
-      <p>&copy; 2023 Adi Ginting. Bandung, Indonesia.</p>{" "}
+      <p>&copy; 2025 Adi Ginting. Bandung, Indonesia.</p>{" "}
     </footer>
   );
 };
