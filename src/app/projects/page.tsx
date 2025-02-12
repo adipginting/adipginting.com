@@ -71,7 +71,7 @@ export default function Page() {
         <h2 className="pt-2">
           B){" "}
           <a
-            href="https://stoic-quote-api.onrender.com"
+            href="https://github.com/adipginting/stoic-quote-api"
             className="text-blue-950 hover:text-blue-500"
           >
             Stoic Quote API (2023-present)
