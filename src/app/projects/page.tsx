@@ -17,10 +17,10 @@ export default function Page() {
           management system. It is built in JavaScript on top of ExpressJS to
           serve RESTful API requests from its user interface that is built on
           top of ReactJS and Bootstrap. The data is persisted on PostgreSQL
-          database. An instance of Industrialisasi is currently running on
-          a VPS using docker and docker compose. Some notable features that I am proud of on this project is
-          the authorization and authentication flow both in back-end and
-          front-end.
+          database. An instance of Industrialisasi is currently running on a VPS
+          using docker and docker compose. Some notable features that I am proud
+          of on this project is the authorization and authentication flow both
+          in back-end and front-end.
         </p>
         <p>Links:</p>
         <ol className="list-decimal list-inside">
