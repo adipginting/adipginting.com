@@ -83,9 +83,9 @@ export default function Page() {
             href="https://github.com/adipginting/stoic-quote-api"
             className="text-blue-950 hover:text-blue-500"
           > */}
-            Stoic Quote API is a simple API for getting random quote from four
-            classic books of Stoicism. This API is built in JavaScript with
-            NestJS framework.
+          Stoic Quote API is a simple API for getting random quote from four
+          classic books of Stoicism. This API is built in JavaScript with NestJS
+          framework.
           {/* </a> */}
         </p>
         {/* <p>Links:</p>
