@@ -5,10 +5,7 @@ export default function Home() {
     <main>
       <article className="left">
         <p>
-          Hello, I am Adi Ginting a computer programmer from Indonesia. I am
-          currently working in web development mainly using TypeScript and PHP.
-          I am currently the process of branching out to other domains
-          particularly DevOps, data engineering, and AI engineering.
+          Adi Ginting a computer programmer from Indonesia.
         </p>
 
         <p>
