@@ -1,8 +1,8 @@
 export default function Page() {
   return (
-    <div className="pt-2">
+    <main className="p-4 lg:flex lg:flex-col lg:items-center">
       <p> On going personal projects.</p>
-      <div>
+      <div className="w-full max-w-2xl">
         <h2 className="pt-2">
           A){" "}
           <a
@@ -66,7 +66,7 @@ export default function Page() {
           </li>
         </ol>
       </div>
-      <div>
+      <div className="w-full max-w-2xl">
         <h2 className="pt-2">
           B){" "}
           <a
@@ -115,6 +115,6 @@ export default function Page() {
           </li>
         </ol> */}
       </div>
-    </div>
+    </main>
   );
 }

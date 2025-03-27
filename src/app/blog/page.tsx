@@ -2,10 +2,9 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div>
-      {/* <ol className="mt-2 ml-5 list-decimal">
-      </ol> */}
-      <p>Blog posts will come soon.</p>
-    </div>
+    <main className="p-4 lg:justify-center lg:flex">
+    
+      <p className="pt-4">Blog posts will come soon.</p>
+    </main>
   );
 }
