@@ -1,119 +1,62 @@
+import Github from "../../_components/github-mark.svg";
+import { CirclePlay } from "lucide-react";
+import Link from "next/link";
+
 export default function Page() {
   return (
-    <main className="p-4 lg:flex lg:flex-col lg:items-center">
-      <p> On going personal projects.</p>
+    <main className="gap-6 p-4 lg:flex lg:flex-col lg:items-center">
       <div className="w-full max-w-2xl">
-        <h2 className="pt-2">
-          A){" "}
-          <a
-            href="https://industrialisasi.com"
-            className="text-blue-950 hover:text-blue-500"
+        <div className="flex rounded-md gap-x-2 w-[180px]">
+          <div>Industrialisasi</div>
+          <Link
+            href="https://www.github.com/adipginting/industrialisasi"
+            target="_blank"
+            className="flex items-center text-pink-800 hover:text-purple-950"
           >
-            Industrialisasi (2022-present)
-          </a>
-        </h2>
+            <Github />
+          </Link>
+          <Link
+            href="https://www.industrialisasi.com"
+            target="_blank"
+            className="flex items-center text-pink-800 hover:text-purple-950"
+          >
+            <CirclePlay className="w-5 h-5" />
+          </Link>
+        </div>
+
         <p>
           Industrialisasi is a blog engine and planned to be a content
           management system. It is built in JavaScript on top of ExpressJS to
           serve RESTful API requests from its user interface that is built on
           top of ReactJS and Bootstrap. The data is persisted on PostgreSQL
           database. An instance of Industrialisasi is currently running on a VPS
-          using docker and docker compose. Some notable features that I am proud
-          of on this project is the authorization and authentication flow both
-          in back-end and front-end.
+          using docker and docker compose.
         </p>
-        <p>Links:</p>
-        <ol className="list-decimal list-inside">
-          <li>
-            <a
-              href="https://industrialisasi.com"
-              className="text-blue-950 hover:text-blue-500"
-            >
-              Industrialisasi Blog Instance
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://api-doc.industrialisasi.com"
-              className="text-blue-950 hover:text-blue-500"
-            >
-              Industrialisasi API Documentation
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/adipginting/industrialisasi-api"
-              className="text-blue-950 hover:text-blue-500"
-            >
-              Industrialisasi API Github Repository
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/adipginting/industrialisasi-ui"
-              className="text-blue-950 hover:text-blue-500"
-            >
-              Industrialisasi UI Github Repository
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/adipginting/industrialisasi"
-              className="text-blue-950 hover:text-blue-500"
-            >
-              Industrialisasi Docker Compose Repository
-            </a>
-          </li>
-        </ol>
       </div>
       <div className="w-full max-w-2xl">
-        <h2 className="pt-2">
-          B){" "}
-          <a
+        <div className="flex rounded-md gap-x-2 w-[180px]">
+          <div>Stoic Quote API</div>
+          <Link
             href="https://github.com/adipginting/stoic-quote-api"
-            className="text-blue-950 hover:text-blue-500"
+            target="_blank"
+            className="flex items-center text-pink-800 hover:text-purple-950"
           >
-            Stoic Quote API (2023-present)
-          </a>
-        </h2>
+            <Github />
+          </Link>
+          <Link
+            href="https://stoic-quote-api.industrialisasi.com"
+            target="_blank"
+            className="flex items-center text-pink-800 hover:text-purple-950"
+          >
+            <CirclePlay className="w-5 h-5" />
+          </Link>
+        </div>
 
         <p>
-          {/* <a
-            href="https://github.com/adipginting/stoic-quote-api"
-            className="text-blue-950 hover:text-blue-500"
-          > */}
           Stoic Quote API is a simple API for getting random quote from four
           classic books of Stoicism. This API is built in JavaScript with NestJS
           framework.
-          {/* </a> */}
         </p>
-        {/* <p>Links:</p>
-        <ol className="list-decimal list-inside">
-          <li>
-            <a
-              href="https://stoic-quote-api.onrender.com/api-doc"
-              className="text-blue-950 hover:text-blue-500"
-            >
-              Stoic Quote API Documentation
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://stoic-quote-api.onrender.com/"
-              className="text-blue-950 hover:text-blue-500"
-            >
-              Stoic Quote API Main End Point
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/adipginting/stoic-quote-api"
-              className="text-blue-950 hover:text-blue-500"
-            >
-              Stoic Quote API Github Repository
-            </a>
-          </li>
-        </ol> */}
       </div>
     </main>
   );

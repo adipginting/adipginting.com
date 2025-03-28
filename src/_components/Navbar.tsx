@@ -34,6 +34,7 @@ const Navbar = () => {
         <li>
           <Link
             href="https://www.github.com/adipginting"
+            target="_blank"
             className="flex items-center text-pink-800 hover:text-purple-950"
           >
             <Github />
@@ -42,6 +43,7 @@ const Navbar = () => {
         <li>
           <Link
             href="https://www.linkedin.com/in/adipginting"
+            target="_blank"
             className="flex items-center text-pink-800 hover:text-purple-950"
           >
             <Linkedin />
