@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className="gap-6 p-4 lg:flex lg:flex-col lg:items-center">
+    <main className="gap-6 p-4 flex flex-col lg:items-center">
       <div className="w-full max-w-2xl">
         <div className="flex rounded-md gap-x-2 w-[180px]">
           <div>Industrialisasi</div>

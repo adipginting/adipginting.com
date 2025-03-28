@@ -3,6 +3,7 @@ import Navbar from "../_components/Navbar";
 import Footer from "../_components/Footer";
 import { Finlandica } from "next/font/google";
 import cn from "classnames";
+import Hamburger from "@/_components/Hamburger";
 
 const finlandica = Finlandica({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={cn(finlandica.className)}>
         <div>
           <Navbar />
+          <Hamburger />
           {children}
           <Footer />
         </div>
