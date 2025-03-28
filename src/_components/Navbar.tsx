@@ -1,7 +1,9 @@
 "use client";
 import Link from "next/link";
-import { Github, Linkedin, MailIcon, Shrub } from "lucide-react";
+import { MailIcon, Shrub } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Github from "./github-mark.svg";
+import Linkedin from "./LinkedIn_icon.svg";
 
 const Navbar = () => {
   const router = useRouter();
