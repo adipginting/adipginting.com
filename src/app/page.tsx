@@ -15,13 +15,12 @@ export default function Home() {
         <p className="pt-1 pl-4 text-md">
           The current technologies that I use are TypeScript, NodeJS (Express
           and NestJS), Reactjs (NextJS & React Router 7), PostgreSQL, Linux
-          (Debian & Ubuntu). On the side, I also learn about Python, Golang, and
-          PHP (Laravel).
+          (Debian & Ubuntu). On the side, I also learn about Python, Golang,
+          Java (Springboot), and PHP (Laravel).
         </p>
         <p className="pt-1 pl-4 text-md">
-          I am a fan (a new convert) of good software engineering practices
-          (Clean Code and Clean Architecture) and I strive to apply them
-          whenever it is possible.
+          I am a fan of good software engineering practices and I strive to
+          apply them whenever it is possible.
         </p>
       </div>
     </main>
