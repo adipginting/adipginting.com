@@ -37,8 +37,16 @@ const Hamburger = () => {
               >
                 <div className="flex items-center gap-x-1">
                   <Shrub />
-                  Home
                 </div>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className="flex justify-center w-full text-pink-800 wflex hover:text-purple-950"
+                onClick={toggleMenu}
+              >
+                <div className="flex items-center gap-x-1">About</div>
               </Link>
             </li>
             <li>
