@@ -61,6 +61,15 @@ const Hamburger = () => {
             </li>
             <li>
               <Link
+                href="/elsewhere"
+                className="flex justify-center w-full text-pink-800 hover:text-purple-950"
+                onClick={toggleMenu}
+              >
+                Elsewhere
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="https://www.github.com/adipginting"
                 target="_blank"
                 className="flex items-center justify-center w-full text-pink-800 just hover:text-purple-950"
