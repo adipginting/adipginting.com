@@ -14,22 +14,35 @@ const Navbar = () => {
           <Link href="/" className="text-pink-800 hover:text-purple-950">
             <div className="flex items-center gap-x-1">
               <Shrub />
-              Adi
             </div>
           </Link>
         </div>
         <ul className="flex items-center gap-x-4">
           <li>
+            <Link href="/about" className="text-pink-800 hover:text-purple-950">
+              <div className="flex items-center gap-x-1">About</div>
+            </Link>
+          </li>
+          <li>
             <Link href="/blog" className="text-pink-800 hover:text-purple-950">
               Blog
             </Link>
           </li>
+
           <li>
             <Link
               href="/projects"
               className="text-pink-800 hover:text-purple-950"
             >
               Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/elsewhere"
+              className="text-pink-800 hover:text-purple-950"
+            >
+              Elsewhere
             </Link>
           </li>
           <li>
