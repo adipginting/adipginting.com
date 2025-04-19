@@ -18,9 +18,9 @@ export default function Home() {
           (Debian & Ubuntu).
         </p>
         <p>
-          On the side, I learn about Python and
-          PHP (Laravel). I am a fan of good software engineering practices and I
-          strive to apply them whenever it is possible.
+          On the side, I learn about Python and PHP (Laravel). I am a fan of
+          good software engineering practices and I strive to apply them
+          whenever it is possible.
         </p>
 
         <p>
