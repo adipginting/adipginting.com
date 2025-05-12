@@ -27,7 +27,9 @@ export default function Page() {
           The first thing that you need to know about sqitch that it will have
           three directories. The directories are deploy, revert, and verify. The
           deploy directory will contain the SQL codes that you use to create the
-          structure of the database. The verify directory contains SQL codes to verify the success of the deployment. The revert directory will, you guess it, contain SQL codes to revert the changes that you have made.
+          structure of the database. The verify directory contains SQL codes to
+          verify the success of the deployment. The revert directory will, you
+          guess it, contain SQL codes to revert the changes that you have made.
         </p>
       </div>
     </main>
