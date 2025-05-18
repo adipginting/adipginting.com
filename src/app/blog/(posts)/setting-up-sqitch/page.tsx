@@ -33,13 +33,18 @@ export default function Page() {
           guess it, contain SQL codes to revert the changes that you have made.
         </p>
         <p>
-          It has has two configuration files in the folder. One is a
-          sqitch.conf and the other is sqitch.plan. The sqitch.conf contains the information
+          It has has two configuration files in the folder. One is a sqitch.conf
+          and the other is sqitch.plan. The sqitch.conf contains the information
           about the database you use like the database address and the
           sqitch.plan contains the changes that you have made to your
           migrations.
         </p>
-        <Image src="/sqitch-files.png" width={468} height={244}   alt="Sqitch files." />
+        <Image
+          src="/sqitch-files.png"
+          width={468}
+          height={244}
+          alt="Sqitch files."
+        />
       </div>
     </main>
   );
