@@ -13,20 +13,13 @@ export default function Home() {
         </p>
 
         <p>
-          The current technologies that I use are TypeScript, NodeJS (Express
-          and NestJS), Reactjs (NextJS & React Router 7), PostgreSQL, Linux
-          (Debian & Ubuntu).
+          The current technologies that I use are TypeScript, Node.js, React,
+          PostgreSQL, Windows, Debian, and Ubuntu.
         </p>
         <p>
-          On the side, I learn about Python and PHP (Laravel). I am a fan of
-          good software engineering practices and I strive to apply them
-          whenever it is possible.
-        </p>
-
-        <p>
-          I am currently working on my personal projects and currently in the
-          process of transforming them to a better software. I use them to
-          practice good software engineering practices.
+          On the side, I delve to Python and Java ecosystem. I am a fan of good
+          software engineering practices and I strive to apply them whenever it
+          is possible.
         </p>
       </div>
     </main>
